@@ -35,7 +35,9 @@ nav a:hover {
     color: #648A7D;
 }
 nav li.active a {
-    background-color: #DFEAF9;
+   background-color: #B8D3E5;
+    Color: black;
+    Font-weight: bold;
 }
 /*Main stuff here*/
 main {
@@ -102,3 +104,4 @@ Footer p{
     margin: 0;
     Letter-spacing: 3px;
 }
+
