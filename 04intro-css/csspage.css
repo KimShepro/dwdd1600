@@ -3,16 +3,16 @@ body {
     margin: 0;
 }
 header {
-    background-color: #DFEAF9;
+    background-color: #1A3F66;
     padding: 1rem 10px;
 }
 header span {
-    color: black; 
+    color: White; 
     font-size: 1.6rem;
     font-weight: 1000;
 }
 nav {
-    background-color: #A1A2Ac;
+    background-color: #E3D5BC;
 }
 nav ul {
     margin: 0;
@@ -28,7 +28,7 @@ nav a {
     padding: .83rem 1rem;
     text-decoration: none;
     font-size: 1.1rem;
-    color: black;
+    color: #1A3F66;
     font-weight: 500;
 }
 nav a:hover {
@@ -104,6 +104,7 @@ Footer p{
     margin: 0;
     Letter-spacing: 3px;
 }
+
 
 
 
