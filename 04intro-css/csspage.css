@@ -11,6 +11,8 @@ header span {
     font-size: 1.6rem;
     font-weight: 1000;
 }
+header h4 {
+    color: white;
 nav {
     background-color: #E3D5BC;
 }
@@ -104,6 +106,7 @@ Footer p{
     margin: 0;
     Letter-spacing: 3px;
 }
+
 
 
 
