@@ -7,7 +7,7 @@ header {
     padding: 1rem 10px;
 }
 header span {
-    color: White;
+    color: White; 
     font-size: 1.6rem;
     font-weight: 1000;
 }
@@ -38,8 +38,8 @@ nav a:hover {
     color: #768CA3;
 }
 nav li.active a {
-   background-color: #768CA3;
-    Color: white;
+    background-color: #768CA3;
+    Color: White;
     Font-weight: bold;
 }
 /*Main stuff here*/
@@ -59,16 +59,18 @@ Main p {
 }
 Main ol {
     padding: .5rem 30px;
-    background-color: #B8D3E5;
+    background-color: #768CA3;
+    color: white;
 }
 Main dl dt{
-    color: black;
+    color: white;
     font-weight: 700;
     margin-top: 1rem;
 }
 main ul{
     list-style-type: circle;
-    background-color: #B8D3E5;
+    background-color: #768CA3;
+    color: white;
 }
 Main ul li{
     line-height: 25%;
@@ -91,7 +93,7 @@ main address {
     width: 200px;
 }
 main a{
-    color: #B8D3E5;
+    color: #1A3F66;
 }
 main a hover{
     color: #786CA3;
@@ -107,12 +109,4 @@ Footer p{
     margin: 0;
     Letter-spacing: 3px;
 }
-
-
-
-
-
-
-
-
 
