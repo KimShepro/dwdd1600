@@ -94,14 +94,15 @@ main a hover{
     color: #648A7D;
 }
 Footer {
-    background-color: #648A7D;
+    background-color: #1A3F66;
     text-align: center;
     padding: 1rem 0;
     font-size: .8rem;
-    color: black;
+    color: white;
 }
 Footer p{
     margin: 0;
     Letter-spacing: 3px;
 }
+
 
