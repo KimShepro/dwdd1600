@@ -32,11 +32,11 @@ nav a {
     font-weight: 500;
 }
 nav a:hover {
-    color: #648A7D;
+    color: #768CA3;
 }
 nav li.active a {
-   background-color: #B8D3E5;
-    Color: black;
+   background-color: #768CA3;
+    Color: white;
     Font-weight: bold;
 }
 /*Main stuff here*/
@@ -104,6 +104,7 @@ Footer p{
     margin: 0;
     Letter-spacing: 3px;
 }
+
 
 
 
