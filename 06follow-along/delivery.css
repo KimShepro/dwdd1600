@@ -90,22 +90,22 @@ main a {
     font-size: .8rem;
 }
 
-.myform fieldset {
+.myForm fieldset {
     border: 1px solid #43a0b6;
     border-radius: 3px;
     margin-bottom: 1rem;
 }
-.myform legend {
+.myForm legend {
     color: #43a0b6;
     font-size: .8rem;
 }
-.myform label {
+.myForm label {
     margin: .5rem;
 }
-.myform label, .myform select, .myform [type=text], .myform [type=tel], .myform textarea {
+.myForm label, .myForm select, .myForm [type=text], .myForm [type=tel], .myForm textarea {
     display: block;
 }
-.myform [type=text], .myform [type=tel], .myform select, .myform text area {
+.myForm [type=text], .myForm [type=tel], .myForm select, .myForm text area {
     border: solid 1px #888;
     padding: .3rem;
     width: 250px;
@@ -113,13 +113,13 @@ main a {
     font-family: 'Montserrat Alternatives', sans-serif;
     font-weight: 200;
 }
-.myform textarea {
+.myForm textarea {
     height: 6rem;
 }
-.myform :required {
+.myForm :required {
 background-color: rgba(156,51,53,10)
 }
-.myform [type=submit] {
+.myForm [type=submit] {
     background-color: #43a0b6;
     border: none;
     padding: 1rem 2rem;
