@@ -117,7 +117,7 @@ main a {
     height: 6rem;
 }
 .myForm :required {
-background-color: rgba(156,51,53,10)
+background-color: rgba(156,51,53,0.1)
 }
 .myForm [type=submit] {
     background-color: #43a0b6;
