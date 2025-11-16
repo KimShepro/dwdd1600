@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Kim Shepro">
+        <meta name="desciption" content="Spotlight of contemporaty artists across a wide range of mediums.">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="csspage.css">
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+        <title>Artist of the Week</title>
+    </head>
+    <body>
+        <header>
+            <img src="images/logo75.png" alt="logo for Artist of the Week" Width="60" height="75">
+            <span><strong>Artist of the Week</strong></span>
+             <h4> A spotlight for modern and contemporary artists.</h4>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Spotlight</a></li>
+                <li><a href="archive.html">Archives</a></li>
+                <li><a href="news.html">News</a></li> 
+                <li><a href="discussion.html">Discussion</a></li>
+                <li><a href="about.html">About</a></li>
+                <li class="active"><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <figure class="hero">
+                <img src="images/hero1.webp" alt="blue and orange waves" height="95" width="1500">
+            </figure>
+        <main>
+            <h1>Thank you for your contacting Artist of the Week</h1>
+             <h2>Please fill out the form below</h2>
+        <form method="get" class="myForm" action="thanks.html">
+        <fieldset>
+            <legend>Your Information</legend>
+        <label>
+            Name:* <input type="text" name="name" required></label>
+        <label>
+            Email:* <input type="email" name="email" required></label>
+        <label>
+            Cell Phone:* <input type="tel" name="phone" required placeholder="555-123-4567"></label>    
+        </fieldset>
+        <fieldset>
+            <legend>Subscriptions</legend>
+            <label><input type="radio" name="method"
+                value="no">No thank you</label>
+            <label><input type="radio" name="method"
+                value="email only">Email only</label>
+            <label><input type="radio" name="method"
+                value="text only">Texts only</label> 
+             <label><input type="radio" name="method"
+                value="email and text">Email and text updates</label> 
+             <label><input type="radio" name="method"
+                value="already subscribed">I'm already subscribed</label>    
+             <label><input type="radio" name="method"
+                value="unsubscribe">Unsubscribe</label>   
+         <label>How did you learn about Artist of the Week? 
+                <select name="time">
+                    <option value="none">Please Select</option>
+                    <option value="friend">Friend</option>
+                    <option value="family">Family</option>
+                    <option value="internet">Internet</option>
+                    <option value="school">School</option>
+                    <option value="other">Other</option>
+                </select>
+            </label>
+        </fieldset>
+ 
+         <fieldset>
+            <legend>Reason for contact</legend>
+            <label><input type="checkbox" name="artist request" value="yes">Artist request</label>
+            <label><input type="checkbox" name="subscribe" value="yes">Subscription</label>
+            <label><input type="checkbox" name="problem with website" value="yes">Problem with the website</label>
+            <label><input type="checkbox" name="other" value="yes">Other</label>    
+         </fieldset>
+         <fieldset>
+            <legend>Artist Request</legend>
+            <label>Name: <input type="text" name="artist request"></label>    
+        <label>
+            Link to artist's social media or webpage : <input type="text" name="artist link"></label>    
+         
+            <label>If you are requesting yourself would you be open to an interview?</label>
+            <label><input type="radio" name="method"
+                value="over the phone">Yes, over the phone</label>
+             <label><input type="radio" name="method"
+                value="over email">Yes, I will answer a list of questions sent by email</label>
+             <label><input type="radio" name="method"
+                value="no">No</label>   
+
+            <label>What would you like us to know about your artist recommendation? What do you like about them? 
+                <textarea name="artist request comments"></textarea>
+            </label>
+            <label>**Reminder: Because of the amount of requested artists, it is possible we may not pick yours no matter how amazing or well deserving they are. <br> But don't despair! Please feel free to try again later, and know that we greatly appreciate your participation in the site.</label>
+        </fieldset>
+        <Fieldset>
+            <label> Other Comments
+                <textarea name="comments"></textarea>
+            </label>
+        </Fieldset>
+
+        <input type="submit" value="Send">
+    </form>
+    <label>Dont forget to hit "send" </label>
+           
+        </main>
+        <footer>
+        <p>&copy; 2025 &bull; Kim Shepro &bull; DGM Project</p>
+
+         </footer>
+     </body>
+            
+        </html>
